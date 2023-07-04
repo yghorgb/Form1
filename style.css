@@ -1,0 +1,145 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  background: #EFEFEF;
+}
+
+body::before{
+  content: '';
+  width: 100%;
+  height: 436px;
+
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: #535971;
+}
+
+.page{
+  width: 750px;
+  margin: auto;
+}
+
+header {
+  width: 417px;
+  padding-top: 140px;
+  color: #fff;
+  
+}
+
+header h1{
+  font-family: 'Staatliches', sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+
+  margin-bottom: 18px;
+}
+
+form {
+  margin-top: 58px;
+  background: #fff;
+  min-height: 300px;
+  border-radius: 20px 20px 0 0;
+  padding: 64px;
+}
+
+fieldset{
+  border: none;
+}
+
+fieldset legend {
+  color: #535971;
+  font-size: 24px;
+  font-family: 'Staatliches', sans-serif;
+  font-weight: 400;
+  line-height: 34px;
+
+  width: 100%;
+  border-bottom: 1px solid #E6E6F0;
+  padding-bottom: 16px;
+  margin-bottom: 32px;
+}
+
+input{
+  width: 100%;
+  padding: 10px 20px;
+}
+
+.input-group{
+  width: 100%;
+  display: flex;
+  gap: 22px;
+}
+
+.input-wrapper{
+  color: #4E4958;
+  font-size: 14px;
+  line-height: 24px;  
+
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.input-wrapper span {
+  color: #C1BCCC;
+  font-size: 12px;
+}
+
+.input-wrapper input {
+  background: #FAFAFC;
+  border: 1px solid #E6E6F0;
+  height: 56px;
+  border-radius: 8px;
+}
+
+h2 {
+  color: #535971;
+  font-size: 20px;
+  font-family: 'Staatliches', sans-serif;
+  font-weight: 400;
+  line-height: 34px;
+}
+
+.date-group {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+footer {
+  height: 160px;
+  border-radius: 0px 0px 20px 20px;
+  background: #535971;
+  padding: 52px 71px;
+}
+
+footer input {
+  width: 100%;
+  height: 55px;
+  border-radius: 20px;
+  background: #FF5374;
+  border: none;
+
+  color: #FFF;
+  font-size: 20px;
+  font-family: 'Staatliches', sans-serif;
+  font-weight: 400;
+  line-height: 26px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
